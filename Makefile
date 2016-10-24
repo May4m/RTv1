@@ -6,7 +6,7 @@
 #    By: smamba <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2016/08/10 16:06:16 by smamba            #+#    #+#              #
-#    Updated: 2016/10/24 11:40:57 by smamba           ###   ########.fr        #
+#    Updated: 2016/10/24 12:09:13 by smamba           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -76,6 +76,9 @@ clean:
 	@make -s -C libft/ clean
 	@rm -f $(NAME)
 	@rm -f *.o
+	@rm -f vector/*.o
+	@rm -f imod/*.o
+	@rm -f enigne/*.o
 
 fclean: clean
 	@make -C libft/ fclean
