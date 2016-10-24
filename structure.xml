@@ -8,10 +8,16 @@
 	</camera>
 
 	<light type="POINT_LIGHT">
-		<pos>0, 20, 1</pos>
+		<pos>4, 20, 1</pos>
 		<color>1, 1, 1</color>
 		<intensity>3</intensity>
 	</light>
+
+    <light type="POINT_LIGHT">
+        <pos>-12, 20, 1</pos>
+        <color>1, 1, 1</color>
+        <intensity>3</intensity>
+    </light>
 	
 	<plane name="FLOOR">
 		<pos>0, -2, 0</pos>
