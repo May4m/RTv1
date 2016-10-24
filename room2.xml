@@ -1,0 +1,79 @@
+<scene>
+	<camera type="LookAt">
+		<pos>0, 10, 20</pos>
+		<lookat>0, 3, -1</lookat>
+		<up>0, 1, 0</up>
+		<samples>32</samples>
+		<fov>30</fov>
+	</camera>
+
+	<light type="POINT_LIGHT">
+		<pos>1, 14, -15</pos>
+		<color>1, 1, 1</color>
+		<intensity>5</intensity>
+	</light>
+
+	<sphere name="GLASS">
+		<pos>5, 0.8, -15</pos>
+		<radius>2.5</radius>
+		<color>1, 1, 1</color>
+		<reflection>TRUE</reflection>
+		<transparency>1.5</transparency>
+	</sphere>
+
+	<cylinder>
+		<pos>-4.8, -2, -18</pos>
+		<radius>2</radius>
+		<color>0.90, 0.76, 0.46</color>
+		<orientation>0, 0, 0.0</orientation>
+		<reflection>TRUE</reflection>
+	</cylinder>
+
+
+	<sphere>
+		<pos>-1, 0, -11</pos>
+		<radius>2.4</radius>
+		<color>1, .32, .36</color>
+		<reflection>TRUE</reflection>
+	</sphere>
+
+
+	<sphere>
+		<pos>-5, 0, -3</pos>
+		<color>.9, .9, .9</color>
+		<radius>2</radius>
+		<reflection>TRUE</reflection>
+	</sphere>
+
+	<plane name="LEFT_WALL">
+		<pos>-9, 0, 0</pos>
+		<color>.75, .25, .25</color>
+		<size>0, 12, 0</size>
+	</plane>
+
+	<plane name="RIGHT_WALL">
+		<pos>9, 0, 0</pos>
+		<color>0.25, 0.25, 0.75</color>
+		<size>0, 12, 0</size>
+	</plane>
+
+	<plane name="FLOOR">
+		<pos>0, -2, 0</pos>
+		<color>.5, .44, .5</color>
+		<size>0, 0, 0</size>
+	</plane>
+
+	<plane name="BACK">
+		<pos>0, 0, -30</pos>
+		<color>1, 1, 1</color>
+		<size>0, 12, 0</size>
+		<reflection>TRUE</reflection>
+		<mirror>TRUE</mirror>
+	</plane>
+
+	<plane name="FRONT">
+		<pos>0, 0, 1</pos>
+		<color>.9, .9, .9</color>
+		<size>0, 16, 0</size>
+	</plane>
+</scene>

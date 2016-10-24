@@ -1,0 +1,35 @@
+<scene>
+	<camera type="LookAt">
+		<pos>0, 0, 20</pos>
+		<lookat>0, 0, -1</lookat>
+		<up>0, 1, 0</up>
+		<samples>1</samples>
+		<fov>30</fov>
+	</camera>
+
+	<light type="POINT_LIGHT">
+		<pos>0, 15, 5</pos>
+		<color>1, 1, 1</color>
+		<intensity>4</intensity>
+	</light>
+
+	<plane name="BACK">
+		<pos>0, 0, -30</pos>
+		<color>.25, .25, .75</color>
+		<size>0, 12, 0</size>
+	</plane>
+	
+	<cylinder>
+		<pos>0, -2, -10</pos>
+		<color>.4, .4, .1</color>
+		<radius>2</radius>
+		<orientation>0, 0, 0</orientation>
+	</cylinder>
+
+	<plane name="FLOOR">
+		<pos>0, -2, 0</pos>
+		<color>.3, .3, .3</color>
+		<size>0, 0, 0</size>
+	</plane>
+
+</scene>
