@@ -6,7 +6,7 @@
 #    By: smamba <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2016/08/10 16:06:16 by smamba            #+#    #+#              #
-#    Updated: 2016/10/24 12:09:13 by smamba           ###   ########.fr        #
+#    Updated: 2016/10/24 12:24:06 by smamba           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -79,6 +79,8 @@ clean:
 	@rm -f vector/*.o
 	@rm -f imod/*.o
 	@rm -f enigne/*.o
+	@rm -f manager/*.o
+	@rm -f matrix/*.o
 
 fclean: clean
 	@make -C libft/ fclean
